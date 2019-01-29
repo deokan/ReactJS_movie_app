@@ -21,7 +21,7 @@ const movies = [
   },
   {
     title : "test movie",
-    poster : ""
+    poster : "hi there"
   }
 ]
 
