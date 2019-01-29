@@ -22,6 +22,10 @@ const movies = [
   {
     title : "test movie",
     poster : "hi there"
+  },
+  {
+    title: "여기서 수정하면...? github web에서",
+    poster : ""
   }
 ]
 
