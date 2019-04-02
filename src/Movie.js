@@ -47,7 +47,7 @@ Movie.propTypes = {
 
 function MoviePoster({poster}) {
   return (
-    <img src={poster} width="300" height="430"/>
+    <img src={poster} width="300" height="430" alt="blah blah"/>
   )
 }
 

@@ -11,6 +11,9 @@ class App extends Component {
 
   componentDidMount(){
     fetch('https://yts.am/api/v2/list_movies.json')
+    .then(response => response.json())
+    .then(json => console.log('json :', json))
+    .catch(err => console.log('Error! ::: ', err))
   }
 
   _renderMovies = () => {
