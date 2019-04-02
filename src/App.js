@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Movie from './Movie';
 
+//2019 4 3 GitHub DeskTop과 연동
 class App extends Component {
   // Render : componentWillMount() -> render() -> componentDismount()
   // update : componentWillReceiveProps() -> shouldComponentUpdate() -> componentWillUpdate() -> render() -> componentDidupdate()
