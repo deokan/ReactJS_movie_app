@@ -10,7 +10,6 @@ class App extends Component {
 
   componentDidMount(){
     fetch('https://yts.am/api/v2/list_movies.json')
-
   }
 
   _renderMovies = () => {
