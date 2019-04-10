@@ -19,7 +19,7 @@ import './Movie.css';
 //   }
 // }
 
-function Movie({title, poster}){
+function Movie({title, poster, genres, synopsis, key}){
   return (
     <div className="Movie">
       <div className="Movie_column">
@@ -64,9 +64,9 @@ function MoviePoster({poster, alt}) {
 }
 
 function MovieGenre({genre}){
-  return {
-    <span className="Movie_Genre">{genre}</span>
-  }
+  return (
+    <span className="Movie_Genre">{genre} </span>
+  )
 }
 
 MoviePoster.propTypes = {
