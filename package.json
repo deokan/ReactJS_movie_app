@@ -26,7 +26,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://deokan.github.io/ReactJS_movie_app",
+  "homepage": "http://deokan.github.io/movie_app",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
