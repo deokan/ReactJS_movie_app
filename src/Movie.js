@@ -20,7 +20,7 @@ import './Movie.css';
 //   }
 // }
 
-function Movie({title, poster, genres, synopsis, key}){
+function Movie({title, poster, genres, synopsis}){
   return (
     <div className="Movie">
       <div className="Movie__Column">
